@@ -91,7 +91,11 @@
   max-width: 700px;
   margin: 0 auto;
 }
-
+video {
+  border: 2px solid #198754;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
 
 </style>
 </head>
@@ -125,7 +129,32 @@
         <div class="col-md-2"><img src="img13.jpeg" alt="Show 6"></div>
         <div class="col-md-2"><img src="img14.jpeg" alt="Show 6"></div>
     </div>
+
 </div>
+ <div class="container my-5">
+  <h2>Videos en Vivo</h2>
+  <div class="row">
+    <div class="col-md-4 mb-4">
+      <video width="100%" controls>
+        <source src="video1.mp4" type="video/mp4">
+        Tu navegador no soporta el video.
+      </video>
+    </div>
+    <div class="col-md-4 mb-4">
+      <video width="100%" controls>
+        <source src="video2.mp4" type="video/mp4">
+        Tu navegador no soporta el video.
+      </video>
+    </div>
+    <div class="col-md-4 mb-4">
+      <video width="100%" controls>
+        <source src="video3.mp4" type="video/mp4">
+        Tu navegador no soporta el video.
+      </video>
+    </div>
+  </div>
+</div>
+
 
  <section class="shows-section">
   <h2>Próximos Shows</h2>
