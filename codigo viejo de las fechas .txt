@@ -1,0 +1,20 @@
+
+ <section class="shows-section">
+  <h2>🎤 Próximos Shows</h2>
+  <ul class="shows-list">
+    <li><strong>9 de Julio</strong> - Pampa Cultural, La Plata</li>
+    <li><strong>29 de Agosto</strong> - Los Lobos, La Plata</li>
+    <li><strong>13 de Setiembre</strong> - Quilmes, Buenos Aires</li>
+  </ul>
+</section>
+
+codigo viejo de las fechas 
+
+<div class="container my-5">
+    <h2>Próximos Shows</h2>
+    <ul>
+        <li>9 de Julio - Pampa Cultural, La Plata</li>
+        <li>29 de Agosto - Los Lobos, La Plata</li>
+        <li>13 de Setiembre - Quilmes, Buenos Aires</li>
+    </ul>
+</div>
