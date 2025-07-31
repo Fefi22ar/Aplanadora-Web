@@ -1,0 +1,165 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>APLANADORA - Tributo a Divididos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<section class="rock-intro">
+	<h1><span class="highlight">Bienvenidos a APLANADORA</span></h1>
+  <p>Banda tributo a Divididos, reviviendo la potencia del rock nacional argentino.</p>
+</section>
+
+
+    <style>
+        body {
+            padding-top: 60px;			
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 15px;			
+        }
+        .contact-form {
+            max-width: 600px;
+            margin: auto;
+	   }
+		
+.shows-section {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 40px auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.shows-section h2 {
+  text-align: center;
+  color: #198754;
+  margin-bottom: 20px;
+}
+
+.shows-list {
+  list-style: none;
+  padding: 0;
+}
+
+.shows-list li {
+  padding: 10px 0;
+  border-bottom: 1px solid #444;
+  font-size: 18px;
+}
+
+.shows-list li:last-child {
+  border-bottom: none;
+}
+
+.rock-intro {
+  background: linear-gradient(135deg, #0d0d0d, #1a1a1a);
+  color: #e6e6e6;
+  padding: 60px 40px;
+  text-align: center;
+  font-family: 'Oswald', 'Impact', sans-serif;
+  border: 1px solid #8B0000;
+  border-radius: 12px;
+  box-shadow: 0 0 25px rgba(255, 0, 0, 0.4);
+  max-width: 900px;
+  margin: 60px auto;
+  letter-spacing: 1px;
+}
+
+.rock-intro h1 {
+  font-size: 52px;
+  color: #f5f5f5;
+  text-shadow: 3px 3px 6px #000;
+  margin-bottom: 25px;
+}
+
+.rock-intro .highlight {
+  color: 7cad53;
+  font-style: Arial;
+}
+
+.rock-intro p {
+  font-size: 22px;
+  line-height: 1.8;
+  color: #bbbbbb;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+
+</style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-success fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">APLANADORA</a>
+    </div>
+</nav>
+
+
+<div class="container my-5">
+    <h2>Sobre la Banda</h2>
+    <p>APLANADORA es una banda de Rock formada por fanáticos de Divididos, de hace 20 años, en la ciudad de La Plata, dedicada a Tributar su música con pasión y fidelidad. Nuestro objetivo es mantener viva la energía de sus shows y compartirla con el público. Formada por: Ramiro, Damian, Ignacio y Federico. Formatos eléctricos, acústicos y Folk-Rock con músicos invitados</p>
+</div>
+
+<div class="container my-5">
+    <h2>Galería</h2>
+    <div class="row gallery">
+        <div class="col-md-2"><img src="img2.jpeg" alt="Show 1"></div>
+        <div class="col-md-2"><img src="img4.jpeg" alt="Show 4"></div>
+        <div class="col-md-2"><img src="img5.jpeg" alt="Show 5"></div>
+        <div class="col-md-2"><img src="img6.jpeg" alt="Show 6"></div>
+        <div class="col-md-2"><img src="img7.jpeg" alt="Show 6"></div>
+        <div class="col-md-2"><img src="img8.jpeg" alt="Show 6"></div>
+        <div class="col-md-2"><img src="img9.jpeg" alt="Show 1"></div>
+        <div class="col-md-2"><img src="img10.jpeg" alt="Show 4"></div>
+        <div class="col-md-2"><img src="img11.jpeg" alt="Show 5"></div>
+        <div class="col-md-2"><img src="img12.jpeg" alt="Show 6"></div>
+        <div class="col-md-2"><img src="img13.jpeg" alt="Show 6"></div>
+        <div class="col-md-2"><img src="img14.jpeg" alt="Show 6"></div>
+    </div>
+</div>
+
+ <section class="shows-section">
+  <h2>Próximos Shows</h2>
+  <ul class="shows-list">
+    <li><strong>9 de Julio</strong> - Pampa Cultural, La Plata</li>
+    <li><strong>29 de Agosto</strong> - Los Lobos, La Plata</li>
+    <li><strong>13 de Setiembre</strong> - Quilmes, Buenos Aires</li>
+  </ul>
+</section>
+
+
+
+<div class="container my-5 rock-form-dark">
+  <h2>📨 Contacto</h2>
+  <form class="contact-form">
+    <div class="mb-3">      <label for="nombre" class="form-label">Nombre</label>
+      <input type="text" class="form-control" id="nombre" required>
+    </div>
+    <div class="mb-3">
+      <label for="correo" class="form-label">Correo Electrónico</label>
+      <input type="email" class="form-control" id="correo" required>
+    </div>
+    <div class="mb-3">
+      <label for="mensaje" class="form-label">Mensaje</label>
+      <textarea class="form-control" id="mensaje" rows="4" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-dark">Enviar</button>
+  </form>
+</div>
+
+
+<footer class="bg-success text-white text-center py-2">
+    <p>&copy; 2025 APLANADORA - Tributo a Divididos - WhatsApp 221-538-4888 - La Plata</p>
+</footer>
+
+</body>
+</html>
