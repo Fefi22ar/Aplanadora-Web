@@ -5,14 +5,13 @@
     <meta charset="UTF-8">
     <title>APLANADORA - Tributo a Divididos</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-
+    
 <section class="rock-intro">
 	<h1><span class="highlight">Bienvenidos a APLANADORA</span></h1>
   <p>Banda tributo a Divididos, reviviendo la potencia del rock nacional argentino.</p>
 </section>
 
-
-    <style>
+   <style>
         body {
             padding-top: 60px;			
         }
@@ -96,35 +95,82 @@ video {
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
 }
- .carousel-item img {
-  border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
-  max-height: 500px;
-  object-fit: cover;
+.carousel-item img {
+  max-width: 70%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+  border: none;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  background-color: transparent;
+}
+.carousel-item {
+  transition: opacity 1.2s ease-in-out;
+}
+#galeriaCarrusel {
+  position: relative;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  padding: 10px;
+}   
+ .carousel-wrapper {
+  max-width: 70%;
+  margin: 0 auto;
+  position: relative;
+}
+.shows-section .card-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.shows-section .card-text {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.shows-section .btn {
+  margin-top: 10px;
 }
 
 </style>
 </head>
 <body>
-
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 <nav class="navbar navbar-expand-lg navbar-dark bg-success fixed-top">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">APLANADORA</a>
     </div>
 </nav>
 
-
-<div class="container my-5">
-   <h2 class="text-center text-success mb-4"> Sobre la Banda</h2>
+<div class="container my-3">
+   <h2 class="text-center text-success mb-4"> SOBRE LA BANDA</h2>
     <p>APLANADORA es una banda de Rock formada por fanáticos de Divididos, de hace 20 años, en la ciudad de La Plata, dedicada a Tributar su música con pasión y fidelidad. Nuestro objetivo es mantener viva la energía de sus shows y compartirla con el público. Formada por: Ramiro, Damian, Ignacio y Federico. Formatos eléctricos, acústicos y Folk-Rock con músicos invitados</p>
 </div>
 
-<div class="container my-5">
-  <h2 class="text-center text-success mb-4">Galería</h2>
+ <div class="container my-5">
+  <h2 class="text-center text-success mb-4">MAKENA - PALERMO - BUENOS AIRES</h2>
+
+  <!-- Carrusel de imágenes -->
   <div id="galeriaCarrusel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2500" data-bs-pause="hover">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="img1.jpeg" class="d-block w-100" alt="Show 1">
+      <img src="img1.jpeg" class="d-block w-100" alt="Show 1">
+      </div>
+      <div class="carousel-item">
+        <img src="img2.jpeg" class="d-block w-100" alt="Show 2">
       </div>
       <div class="carousel-item">
         <img src="img3.jpeg" class="d-block w-100" alt="Show 3">
@@ -132,28 +178,51 @@ video {
       <div class="carousel-item">
         <img src="img4.jpeg" class="d-block w-100" alt="Show 4">
       </div>
-      <div class="carousel-item">
+       <div class="carousel-item">
+        <img src="img5.jpeg" class="d-block w-100" alt="Show 5">
+      </div>
+        <div class="carousel-item">
+        <img src="img6.jpeg" class="d-block w-100" alt="Show 6">
+      </div>
+        <div class="carousel-item">
+        <img src="img7.jpeg" class="d-block w-100" alt="Show 7">
+      </div>
+        <div class="carousel-item">
+        <img src="img8.jpeg" class="d-block w-100" alt="Show 8">
+      </div>
+        <div class="carousel-item">
         <img src="img9.jpeg" class="d-block w-100" alt="Show 9">
       </div>
-       <div class="carousel-item">
+        <div class="carousel-item">
         <img src="img10.jpeg" class="d-block w-100" alt="Show 10">
       </div>
-       <div class="carousel-item">
+        <div class="carousel-item">
         <img src="img11.jpeg" class="d-block w-100" alt="Show 11">
       </div>
-       <div class="carousel-item">
+        <div class="carousel-item">
         <img src="img12.jpeg" class="d-block w-100" alt="Show 12">
       </div>
-       <div class="carousel-item">
+        <div class="carousel-item">
         <img src="img13.jpeg" class="d-block w-100" alt="Show 13">
       </div>
-       <div class="carousel-item">
+        <div class="carousel-item">
         <img src="img14.jpeg" class="d-block w-100" alt="Show 14">
+      </div>
+        <div class="carousel-item">
+        <img src="img15.jpeg" class="d-block w-100" alt="Show 15">
+      </div>
+        <div class="carousel-item">
+        <img src="img16.jpeg" class="d-block w-100" alt="Show 16">
+      </div>
+        <div class="carousel-item">
+        <img src="img17.jpeg" class="d-block w-100" alt="Show 17">
+      </div>
+        <div class="carousel-item">
+        <img src="img18.jpeg" class="d-block w-100" alt="Show 18">
       </div>
       <!-- Agregá más imágenes si querés -->
     </div>
-
-    <!-- Controles -->
+    <!-- Controles del carrusel -->
     <button class="carousel-control-prev" type="button" data-bs-target="#galeriaCarrusel" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Anterior</span>
@@ -165,44 +234,78 @@ video {
   </div>
 </div>
 
+<!-- Videos en vivo -->
 <div class="container my-5">
-  <h2 class="text-center text-success mb-4"> Presentaciones en Vivo</h2>
+  <h2 class="text-center text-success mb-4">VIDEOS EN VIVO</h2>
   <div class="row">
     <div class="col-md-4 mb-4">
       <div class="ratio ratio-16x9 border border-success rounded shadow">
-        <iframe src="https://www.youtube.com/embed/Z5OinRWzcos" 
-        title="Divididos - Video 1" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/Z5OinRWzcos" title="Divididos - Video 1" allowfullscreen></iframe>
       </div>
     </div>
     <div class="col-md-4 mb-4">
       <div class="ratio ratio-16x9 border border-success rounded shadow">
-        <iframe src="https://www.youtube.com/embed/ldY4ZBrnBeU" 
-        title="Divididos - Video 2" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/ldY4ZBrnBeU" title="Divididos - Video 2" allowfullscreen></iframe>
       </div>
     </div>
     <div class="col-md-4 mb-4">
       <div class="ratio ratio-16x9 border border-success rounded shadow">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/pxkS4EGanTc?si=2Jx27mbBYKF0rdVw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/pxkS4EGanTc?si=2Jx27mbBYKF0rdVw" title="Divididos - Video 3" allowfullscreen></iframe>
       </div>
     </div>
   </div>
 </div>
 
- <section class="shows-section">
+<section class="shows-section">
   <h2>Próximos Shows</h2>
-  <ul class="shows-list">
-    <li><strong>9 de Julio</strong> - Pampa Cultural, La Plata</li>
-    <li><strong>29 de Agosto</strong> - Los Lobos, La Plata</li>
-    <li><strong>13 de Setiembre</strong> - Quilmes, Buenos Aires</li>
-  </ul>
+  <div class="row">
+    <!-- Show 1 -->
+    <div class="col-md-4 mb-4">
+      <div class="card bg-dark text-white h-100 border-success shadow">
+        <div class="card-body">
+          <h5 class="card-title"> 9 de Julio</h5>
+          <p class="card-text"> Pampa Cultural, La Plata<br>
+           Horario: 14:30 hs<br>
+           Dirección: Calle 35 entre 19 y 20</p>
+          <a href="https://maps.google.com/?q=Pampa+Cultural+La+Plata" target="_blank" class="btn btn-success btn-sm">Ver en Google Maps</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Show 2 -->
+    <div class="col-md-4 mb-4">
+      <div class="card bg-dark text-white h-100 border-success shadow">
+        <div class="card-body">
+          <h5 class="card-title"> 29 de Agosto</h5>
+          <p class="card-text"> Los Lobos, La Plata Puntual<br>
+           Horario: 21:00 hs<br>
+           Dirección: Av. 13 E/ 527 y 528</p>
+          <a href="https://maps.google.com/?q=Los+Lobos+La+Plata" target="_blank" class="btn btn-success btn-sm">Ver en Google Maps</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Show 3 -->
+    <div class="col-md-4 mb-4">
+      <div class="card bg-dark text-white h-100 border-success shadow">
+        <div class="card-body">
+          <h5 class="card-title"> 13 de Setiembre</h5>
+          <p class="card-text"> Teatro Quilmes<br>
+           Horario: 20:00 hs<br>
+           Dirección: Calle Mitre 721</p>
+          <a href="https://maps.google.com/?q=Teatro+Municipal+Quilmes" target="_blank" class="btn btn-success btn-sm">Ver en Google Maps</a>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
-
-
+<!-- Formulario de contacto -->
 <div class="container my-5 rock-form-dark">
-  <h2>Contacto</h2>
+  <h2 class="text-center text-success mb-4">Contacto</h2>
   <form class="contact-form">
-    <div class="mb-3">      <label for="nombre" class="form-label">Nombre</label>
+    <div class="mb-3">
+      <label for="nombre" class="form-label">Nombre</label>
       <input type="text" class="form-control" id="nombre" required>
     </div>
     <div class="mb-3">
@@ -217,13 +320,13 @@ video {
   </form>
 </div>
 
-
+<!-- Footer -->
 <footer class="bg-success text-white text-center py-2">
-  <p>&copy; 2025 APLANADORA - Tributo a Divididos - WhatsApp 221-538-4888 - La Plata</p>
+  <div class="container-fluid">
+    <p>&copy; 2025 APLANADORA - Tributo a Divididos - WhatsApp 221-538-4888 - La Plata</p>
+  </div>
 </footer>
 
-<!-- Bootstrap JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
 
